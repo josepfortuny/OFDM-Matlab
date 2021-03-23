@@ -8,4 +8,6 @@ Los requisitos a tener en cuenta son los siguientes:
 * El ruido gaussiano y el multicamino deben poder desactivarse en cualquier simulación por separado.
 * El sistema en banda base debe tener una frecuencia de muestreo de 100 KSPS.
 * El código no puede presentar ningún error al ejecutarse.
+
+
 Dado que nosotros generaremos una simulación en Matlab nos interesara poder caracterizar la robustez de la señal OFDM a través de una gráfica BER-EbNo que varíe entre 0 dB y 30 dB.
